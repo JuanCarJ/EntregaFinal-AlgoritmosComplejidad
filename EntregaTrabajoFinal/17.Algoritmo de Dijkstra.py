@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -- coding: utf-8 --
+
 
 """
 
@@ -115,7 +114,7 @@ def calcular_longitud_tour(tour, mat_dist):
         mat_dist[tour[i]][tour[i + 1]] for i in range(len(tour) - 1)
     )
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # Definición del grafo (matriz 10x10 de pesos)
     graph = [
         [ 0, 34, 56, 12, 78, 90, 43, 67, 23, 55 ],

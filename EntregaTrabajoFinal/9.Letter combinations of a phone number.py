@@ -13,6 +13,8 @@ def letterCombinations(digits):
         if not digits:
             return []
         result = [""]
+        
+    # Por cada dígito, se combinan las letras actuales con las letras correspondientes al dígito
         for digito in digits:
             letras = letrasCel[digito]
             result = [actuales + letrasDigitos for actuales in result for letrasDigitos in letras]
