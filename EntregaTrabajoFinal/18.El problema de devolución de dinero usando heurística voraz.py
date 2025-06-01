@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-def cambio_voraz(monedas: List[int], monto: int) -> Tuple[int, List[int]]:
+def cambio_voraz(monedas, monto: int):
     """
     Algoritmo voraz para devuelta con la menor cantidad de monedas posible,
     usando siempre la moneda de mayor valor que no exceda el monto restante.
