@@ -1,16 +1,3 @@
-
-
-"""
-
-
-Este script calcula, en un grafo completo de 10 nodos:
-1. Las distancias mínimas entre cada par de nodos usando Dijkstra.
-2. Una ruta aproximada para el TSP empleando la heurística del vecino más cercano.
-
-Uso:
-    python3 tsp_vecino_mas_cercano.py
-"""
-
 import sys
 
 def dijkstra(graph, origen):
