@@ -24,7 +24,7 @@ def factorial_recursivo(n):
         return 1
     return n * factorial_recursivo(n - 1)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # Ejemplos breves
     for i in range(6):
         print(f"Iterativo {i}! = {factorial_iterativo(i)}")

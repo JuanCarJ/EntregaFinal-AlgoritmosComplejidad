@@ -21,7 +21,7 @@ def gcd_recursivo(a, b):
         raise ValueError("Los parámetros deben ser >= 0")
     return a if b == 0 else gcd_recursivo(b, a % b)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     ejemplos = [(48, 18), (54, 24), (0, 5), (7, 0), (270, 192)]
     print("Pruebas gcd_iterativo:")
     for x, y in ejemplos:

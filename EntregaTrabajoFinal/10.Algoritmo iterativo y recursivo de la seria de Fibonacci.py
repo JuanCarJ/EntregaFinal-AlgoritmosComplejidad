@@ -24,7 +24,7 @@ def fibonacci_recursivo(n):
         return n
     return fibonacci_recursivo(n - 1) + fibonacci_recursivo(n - 2)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # Ejemplos breves
     for i in range(6):
         print(f"Iterativo F({i}) = {fibonacci_iterativo(i)}")
