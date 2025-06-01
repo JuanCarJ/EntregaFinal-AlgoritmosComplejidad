@@ -90,7 +90,7 @@ if __name__ == "__main__":
     imprimir_tablero(tablero_sudoku)
 
     if resolver_sudoku(tablero_sudoku):
-        print("\nSolución encontrada:")
+        print("\nSolucion encontrada:")
         imprimir_tablero(tablero_sudoku)
     else:
-        print("\nNo se encontró solución.")
+        print("\nNo se encontro solucion.")

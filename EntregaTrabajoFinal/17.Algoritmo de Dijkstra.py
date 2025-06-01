@@ -102,7 +102,7 @@ def calcular_longitud_tour(tour, mat_dist):
     )
 
 if __name__ == "__main__":
-    # Definición del grafo (matriz 10x10 de pesos)
+    # Prueba (matriz 10x10 de pesos)
     graph = [
         [ 0, 34, 56, 12, 78, 90, 43, 67, 23, 55 ],
         [34,  0, 64, 21, 12, 44, 90, 13, 45, 66 ],
